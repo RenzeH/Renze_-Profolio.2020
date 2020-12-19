@@ -1,0 +1,60 @@
+@font-face {
+    font-family: openhuninn;
+    src: url(/jf-openhuninn-1.1.ttf);
+  }
+
+*{
+  
+    font-family: openhuninn;
+}
+
+html{
+    height: 100vh;
+}
+
+.header-logo{
+    font-size: 45px;
+}
+
+.title{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.crd-h{
+    height: 200px;
+}
+
+.img_r{
+    object-fit: cover;
+}
+
+.image_r{
+    width: 100%;
+    background-image: url(/1.png);
+    background-size: cover;
+    background-position: center left;
+}
+
+.image_xl{
+    width: 100%;
+    background-image: url(/2.JPG);
+    background-size: cover;
+    background-position: 50% 70% ;
+}
+
+.image_l{
+    width: 100%;
+    background-image: url(/3.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center ;
+}
+
+.zoom{
+    transition: all 1s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+  }
