@@ -1,0 +1,39 @@
+.crd-h{
+    height: 50vh;
+}
+
+.image_xl{
+    width: 100%;
+    background-image: url(/blog/城市意象/main.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.image_1{
+    width: 100%;
+    background-image: url(/blog/城市意象/1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.image_2{
+    width: 100%;
+    background-image: url(/blog/城市意象/2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.zoom{
+    transition: all 1s;
+}
+
+.zoom:hover {
+    transform: scale(1.01);
+}
+
+@media screen and (max-width: 500px){
+
+    .crd-h{
+        height: 150px;
+    }
+}

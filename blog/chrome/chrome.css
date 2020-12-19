@@ -1,0 +1,26 @@
+.crd-h{
+    height: 50vh;
+}
+
+.image_xl{
+    width: 100%;
+    background-image: url(/blog/chrome/renze.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.zoom{
+    transition: all 1s;
+}
+
+.zoom:hover {
+    transform: scale(1.01);
+}
+
+@media screen and (max-width: 500px){
+
+    .crd-h{
+        height: 150px;
+    }
+}
