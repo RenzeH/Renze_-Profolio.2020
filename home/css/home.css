@@ -1,0 +1,40 @@
+.crd-h{
+    height: 200px;
+}
+
+.image_l{
+    width: 100%;
+    background-image: url(/home/img/blog.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center ;
+}
+
+.image_r{
+    width: 100%;
+    background-image: url(/home/img/ph.png);
+    background-size: cover;
+    background-position: center left;
+}
+
+.image_xl{
+    width: 100%;
+    background-image: url(/home/img/proj.JPG);
+    background-size: cover;
+    background-position: 50% 70% ;
+}
+
+.zoom{
+    transition: all 1s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 500px){
+
+    .crd-h{
+        height: 150px;
+    }
+}

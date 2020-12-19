@@ -1,10 +1,13 @@
 *{
-  
     font-family: 'Nunito', sans-serif;
 }
 
 html{
     height: 100vh;
+}
+
+a:hover {
+    color: black;
 }
 
 /* nav */
@@ -22,63 +25,17 @@ html{
     margin-top: 3rem;
 }
 
-/* menu */
-
-.crd-h{
-    height: 200px;
-}
-
-.image_l{
-    width: 100%;
-    background-image: url(/3.png);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: center ;
-}
-
-.image_r{
-    width: 100%;
-    background-image: url(/1.png);
-    background-size: cover;
-    background-position: center left;
-}
-
-.image_xl{
-    width: 100%;
-    background-image: url(/2.JPG);
-    background-size: cover;
-    background-position: 50% 70% ;
-}
-
-.zoom{
-    transition: all 1s;
-}
-
-.zoom:hover {
-    transform: scale(1.1);
-}
-
 .foot{
     height: 10vh;
 }
 
-  /* menu */
+@media screen and (max-width: 500px){
 
-  .h5, h5{
-      text-align: center;
-      font-size: 1rem;
-  }
-
-  @media screen and (max-width: 500px){
-
-        body{
-            padding-left: 5%;
-            padding-right: 5%;
-        }
-        .nav{
-            margin-top: 1.5rem;
-        }
-        .crd-h{
-            height: 150px;
-        }
-  }
+    body{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .nav{
+        margin-top: 1.5rem;
+    }
+}
