@@ -7,6 +7,8 @@ html{
     height: 100vh;
 }
 
+/* nav */
+
 .header-logo{
     font-size: 45px;
 }
@@ -16,12 +18,22 @@ html{
     padding-bottom: 50px;
 }
 
+.nav{
+    margin-top: 3rem;
+}
+
+/* menu */
+
 .crd-h{
     height: 200px;
 }
 
-.img_r{
-    object-fit: cover;
+.image_l{
+    width: 100%;
+    background-image: url(/3.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center ;
 }
 
 .image_r{
@@ -38,18 +50,35 @@ html{
     background-position: 50% 70% ;
 }
 
-.image_l{
-    width: 100%;
-    background-image: url(/3.png);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: center ;
-}
-
 .zoom{
     transition: all 1s;
 }
 
 .zoom:hover {
     transform: scale(1.1);
+}
+
+.foot{
+    height: 10vh;
+}
+
+  /* menu */
+
+  .h5, h5{
+      text-align: center;
+      font-size: 1rem;
+  }
+
+  @media screen and (max-width: 500px){
+
+        body{
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        .nav{
+            margin-top: 1.5rem;
+        }
+        .crd-h{
+            height: 150px;
+        }
   }
