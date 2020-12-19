@@ -1,0 +1,53 @@
+.crd-h{
+    height: 200px;
+}
+
+.image_xl{
+    width: 100%;
+    background-image: url(/);
+    background-size: cover;
+    background-position: center;
+}
+
+.image_1{
+    width: 100%;
+    background-image: url(/);
+    background-size: cover;
+    background-position: center;
+}
+
+.image_2{
+    width: 100%;
+    background-image: url(/);
+    background-size: cover;
+    background-position: center;
+}
+
+.image_3{
+    width: 100%;
+    background-image: url(/);
+    background-size: cover;
+    background-position: center;
+}
+
+.image_4{
+    width: 100%;
+    background-image: url(/);
+    background-size: cover;
+    background-position: center;
+}
+
+.zoom{
+    transition: all 1s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 500px){
+
+    .crd-h{
+        height: 150px;
+    }
+}
