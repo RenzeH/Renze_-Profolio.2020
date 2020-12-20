@@ -1,33 +1,33 @@
 .crd-h{
-    height: 200px;
+    height: 70vh;
 }
 
 .image_xl{
-    width: 100%;
-    background-image: url(/blog/chrome/renze.jpg);
-    background-size: cover;
-    background-position: center ;
-}
-
-.image_1{
-    width: 100%;
-    background-image: url(/blog/城市意象/main.jpeg);
-    background-size: cover;
-    background-position: center ;
-}
-
-.image_2{
     width: 100%;
     background-image: url(/blog/微小電子/micro_e.jpeg);
     background-size: cover;
     background-position: center;
 }
 
+.image_1{
+    width: 100%;
+    background-image: url(/blog/微小電子/1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.image_2{
+    width: 100%;
+    background-image: url(/blog/微小電子/2.png);
+    background-size: cover;
+    background-position: center;
+}
+
 .image_3{
     width: 100%;
-    background-image: url(/blog/停損點/main.jpeg);
+    background-image: url(/blog/微小電子/3.png);
     background-size: cover;
-    background-position: center left;
+    background-position: center;
 }
 
 .zoom{
@@ -35,7 +35,7 @@
 }
 
 .zoom:hover {
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
 
 @media screen and (max-width: 500px){
