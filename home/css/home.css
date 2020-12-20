@@ -4,10 +4,10 @@
 
 .image_l{
     width: 100%;
-    background-image: url(/home/img/blog.png);
+    background-image: url(/home/img/blog.jpg);
     background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: center ;
+    background-size: cover;
+    background-position: bottom center ;
 }
 
 .image_r{
