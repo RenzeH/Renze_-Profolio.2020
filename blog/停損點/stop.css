@@ -1,0 +1,31 @@
+.crd-h{
+    height: 70vh;
+}
+
+.image_xl{
+    width: 100%;
+    background-image: url(/blog/停損點/main.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.image_1{
+    width: 100%;
+    background-image: url(/blog/停損點/1.png);
+    background-size: cover;
+    background-position: center;
+
+.zoom{
+    transition: all 1s;
+}
+
+.zoom:hover {
+    transform: scale(1.01);
+}
+
+@media screen and (max-width: 500px){
+
+    .crd-h{
+        height: 150px;
+    }
+}
