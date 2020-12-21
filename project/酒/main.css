@@ -1,5 +1,5 @@
-.crd-h{
-    height: 200px;
+.crd-hh{
+    height: 70vh;
 }
 
 .image_xl{
@@ -11,28 +11,28 @@
 
 .image_1{
     width: 100%;
-    background-image: url(/);
+    background-image: url(/project/酒/1.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .image_2{
     width: 100%;
-    background-image: url(/);
+    background-image: url(/project/酒/2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .image_3{
     width: 100%;
-    background-image: url(/);
+    background-image: url(/project/酒/3.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .image_4{
     width: 100%;
-    background-image: url(/);
+    background-image: url(/project/酒/4.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -42,12 +42,16 @@
 }
 
 .zoom:hover {
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
 
 @media screen and (max-width: 500px){
 
-    .crd-h{
+    .crd-hh{
         height: 150px;
+    }
+
+    .crd-h{
+        height: 30vh;
     }
 }
