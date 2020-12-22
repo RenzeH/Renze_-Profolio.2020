@@ -2,23 +2,31 @@
     height: 200px;
 }
 
+.crd-hh{
+    height: 600px;
+}
+
+.big{
+    display: none;
+}
+
 .image_xl{
     width: 100%;
-    background-image: url(/project/img/renze.jpg);
+    background-image: url(/project/img/3.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .image_1{
     width: 100%;
-    background-image: url(/);
+    background-image: url(/project/img/2-2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .image_2{
     width: 100%;
-    background-image: url(/);
+    background-image: url(/project/img/renze.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -42,12 +50,27 @@
 }
 
 .zoom:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 500px){
 
+    .big{
+        display: block;
+    }
+
     .crd-h{
         height: 150px;
+    }
+
+    .crd-hh{
+        height: 150px;
+    }
+
+    .image_xl{
+        width: 100%;
+        background-image: url(/project/img/2-3.jpg);
+        background-size: cover;
+        background-position: center;
     }
 }

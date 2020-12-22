@@ -1,0 +1,129 @@
+.crd-hh{
+    height: 70vh;
+}
+
+.crd-h{
+    height: 70vh;
+}
+
+.image_xl{
+    width: 100%;
+    background-image: url(/project/img/3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.image_1{
+    width: 100%;
+    background-image: url(/project/自動鎖II/img/1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.image_2{
+    width: 100%;
+    background-image: url(/project/自動鎖II/img/2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.image_3{
+    width: 100%;
+    background-image: url(/project/自動鎖II/img/3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.image_4{
+    width: 100%;
+    background-image: url(/project/自動鎖II/img/4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.image_5{
+    width: 100%;
+    background-image: url(/project/自動鎖II/img/5.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image_6{
+    width: 100%;
+    background-image: url(/project/自動鎖II/img/6.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image_7{
+    width: 100%;
+    background-image: url(/project/自動鎖II/img/7.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image_8{
+    width: 100%;
+    background-image: url(/project/自動鎖II/img/8.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image_9{
+    width: 100%;
+    background-image: url(/project/自動鎖II/img/9.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image_10{
+    width: 100%;
+    background-image: url(/project/自動鎖II/img/10.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image_11{
+    width: 100%;
+    background-image: url(/project/自動鎖II/img/11.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image_12{
+    width: 100%;
+    background-image: url(/project/自動鎖II/img/12.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image_13{
+    width: 100%;
+    background-image: url(/project/自動鎖II/img/13.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.zoom{
+    transition: all 1s;
+}
+
+.zoom:hover {
+    transform: scale(1.01);
+}
+
+@media screen and (max-width: 500px){
+
+    .crd-hh{
+        height: 150px;
+    }
+
+    .crd-h{
+        height: 30vh;
+    }
+}

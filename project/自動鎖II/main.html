@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>RENZE_gd3</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="/project/自動鎖II/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+  <body style="background-color: #FFD542">
+
+    <!-- nav -->
+    
+    <div class="container">
+
+        <div class="row nav">
+            <div class="col-6 header-logo">
+                <a href="../../index.html" class="text-body text-decoration-none">RENZE</a>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-end p-2 text-body">V.20201219</div>
+        </div>
+
+        <div class="row title">
+            <div class="col-12 col-md-12">
+                <a class="text-body text-decoration-none" href="/project/project.html"><h3>⬅︎ Back to Project</h3></a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- menu -->
+
+    <div class="container">
+
+        <div class="row mb-5">
+            <div class="zoom col-12 col-md-12">
+                <div href="" class="image_xl text-decoration-none crd-hh row rounded bg-dark d-flex justify-content-end align-items-end pb-2 pr-3 text-white animate__animated animate__fadeInUp animate__slow" style="margin: 1px;"></div>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center mb-4">
+            <div class="col-12 col-md-8 mt-5 mb-2  animate__animated animate__fadeInUp animate__delay-1s animate__slow">
+                <h1>宿舍之門鎖電子化研究 II</h1>
+                <h6 class="text-dark">2020/12/22 12:00</h6>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <h3>引言：</h3>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>此報告應應百川學習專題研究而產生，報告內容針對跨領域學習為主的方向為目標，內容將涉及電子、機械、工業設計、行銷、分析等等跨領域內容交錯整合。本次專題研究報告為無線射頻辨識門鎖電子化研究延續內容，此研究報告會將前一次的報告內容及參考文獻一並列入。</p>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <h3>摘要：</h3>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>無線射頻辨識(Radio Frequency Identification, RFID)技術發展至今已應用於各式場域，在技術而言已相當成熟，在工業4.0的生態中無線射頻辨識佔有極重要地位，從生活、物流、金融等等皆與此技術習習相關。RFID技術興起是有許多因素及便利性構成的，移往我們使用無線遙控器來傳輸訊號，其RX發射端（遙控器)為了發射訊號至TX接受端需搭配水銀電池來發出訊號，而RFID技術透過識別器所發出的特定可以直接接收其電磁場的能量，進而以反饋的方式回傳訊息至識別端。此報告將分析台灣RFID技術的應用與門鎖結合之應用成果。此研究於門鎖開發經由第一階段至今以實際運作兩個月，經由卡片來代替宿舍房門的這個機構以非常穩定。試驗期間發現了一些使用流程尚可改良缺點，此次專題研究將其問題解決，並且讓使用者擁有更佳的使用操作以及體驗。</p>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <h3>研究動機：</h3>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>RFID 是透過無線的方式去協助辨識卡片中資訊，讀取端模組將標籤的資訊傳送到電腦端做處理。 電子門鎖技術至今已普及應用於大樓門禁，該門禁結合多元解鎖方式及安全保護機制，其解鎖方式包含RFID技術、生物辨識技術、臉部辨識、聲紋辨識、密碼輸入方式等等。筆者居住於交通大學研三宿舍，宿舍內皆為使用鑰匙開鎖，經常會發生沒帶鑰匙或鑰匙遺失等問題，因此著手開始研究RFID技術，並實際運用於宿舍。</p>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <h3>研究目的：</h3>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>研究現今RDIF技術應用及門鎖構造並以非侵入式設計開始思考如何在不破壞門板、門鎖的狀況下加裝電子感應的機制來開門。目標將其門鎖構造、技術簡化至精。並將目標訂於大眾市場，符合現今手動門鎖構造，可擴大擴大市場目標族群，並透過簡單的安裝方式自行裝設。</p>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <h3>研究方法：</h3>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>研三宿舍之⾨鎖電⼦化研究（一）完成了GD3的第一個試驗版本，使用者透過卡片可做到解鎖、上鎖等動作，但是仍然存在著一些使用者體驗、應用程序問題，接著將以這些問題設為專題目標來分析並嘗試解決，在外觀與使用者體驗上進一步做改良。</p>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <h3>使用者偏好研究：</h3>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>目前交大學生於宿舍內皆為使用鑰匙開鎖，經常會發生沒帶鑰匙或鑰匙遺失等問題。因此開始思考如何在不破壞門板、門鎖的狀況下加裝電子感應的機制來開門。目前市場上應該也有著潛在的需求者，例如Airbnb、WeWork、醫院等無法投入大量成本更換門鎖的需求者。而本次研究目標為完成一個產品的開發流程，在開發前針對使用者做分析，並且將使用者的習慣、及偏好套用於設計中。
+                　　針對目前世界的電子門鎖市場已相當普及，各電子大廠在此領域都略有涉略，在安全性上也被受肯定，例如小米、索尼、三星等等，我們也將各大廠的門鎖設計列入分析研究內，目前市售的門鎖價位普遍偏高，對於一般老舊社區型住戶而言，原先的機械鎖想改裝成電子門鎖需考量到門板的厚度及材質等因素，在改裝時也需從事相關門鎖安裝的廠商來評估、施工。
+                </p>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>市面電子門鎖做出概略分為二類，第一類為非嵌入式電子門鎖（如圖），第二類為非嵌入式電子門鎖（如圖），其兩類門鎖在價格、體積、功能上會有著明顯差異。</p>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>第一類非嵌入式門鎖通常會運用於舊式的旋鈕機械式鎖頭（如圖），透過特殊的自適結構可符合市面上多數的旋鈕造型，其安裝方法也較為簡單，可用強力雙面膠黏貼。目前市面上類似產品有日本索尼Qrio Lock及Keymitt Smart Lock等等（如圖）。第二類門鎖較受到侷限的是解鎖方式，因電子控制單元安裝於門的內側，外側沒有對應的裝置，透過RFID技術感應會有穿透性的問題，因此第二類門鎖普遍使用主動發射器（遙控器）、藍芽、網際網路等等方式做連接、解鎖。</p>
+          </div>
+        </div>
+
+
+        <div class="row mb-5 d-flex justify-content-center">
+          <div class="zoom col-12 col-md-8">
+              <div class="image_3 crd-h row rounded bg-dark text-white animate__animated animate__fadeInUp animate__slow" style="margin: 1px;"></div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>第二類門鎖為嵌入式的設計（如圖），常見於新蓋的社區，第二類門鎖稱之為嵌入式的原因為在安裝上比照第一類門鎖構造較為複雜，其門鎖購買時即包含鎖體與前面板、後面板（如圖），而鎖體中包含馬達等電機零件與機械鎖閂。主控制電路將放置於後面板，而辨識機能會方在前面板上，例如指紋辨識模組、密碼輸入介面、卡片感應模組、聲紋辨識麥克風等等。在安裝時第二類門鎖需看門板類型來施作安裝，太薄的門板、太厚的門板、實心的門板皆會增加安裝時的難度與費用。</p>
+          </div>
+        </div>
+
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <h5>開發類型定義：</h5>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>經過前期的市場分析後將目標族群鎖定於研三宿舍，此門鎖第一階段將針對研三舍的住戶為目標客群，並對其傳統門鎖進行改良、開發。從第一類與第二類門鎖我們得到了相關的特性與安裝方式，因交通大學宿舍皆存在著明文規定的約束，不可對宿舍的財產做出破壞的舉動，因此選擇第一類的非嵌入式門鎖作為開發的目標，並對其進行改良研發。</p>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <h5>外觀設計過程：</h5>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>從第一類非嵌入式的門鎖定義，我們保留著宿舍原先的機械門鎖構造，進而設計電子門鎖的外型及機械構造，其電機零件及造型設計會與原先機械門鎖的鎖頭、門把位置有絕對的關係，在開發前先將鎖頭、門把位置做2D的繪製，並對其設計圖預先進行配置、模擬，接著再進入3D建模軟體建模、渲染。</p>
+          </div>
+        </div>
+
+        <div class="row mb-5 d-flex justify-content-center">
+          <div class="zoom col-12 col-md-8">
+              <div class="image_2 crd-h row rounded bg-dark text-white animate__animated animate__fadeInUp animate__slow" style="margin: 1px;"></div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>2D設計圖能快速表現出產品初期的理想狀態，並且靈活的更改靈感。此階段會做快速草繪，並且測量門上的鎖頭、門把的尺寸、位置。</p>
+          </div>
+        </div>
+
+        <div class="row mb-5 d-flex justify-content-center">
+          <div class="zoom col-12 col-md-8">
+              <div class="image_1 crd-h row rounded bg-dark text-white animate__animated animate__fadeInUp animate__slow" style="margin: 1px;"></div>
+          </div>
+        </div>
+
+        <div class="row mb-5 d-flex justify-content-center">
+          <div class="zoom col-12 col-md-8">
+              <div class="image_4 crd-h row rounded bg-dark text-white animate__animated animate__fadeInUp animate__slow" style="margin: 1px;"></div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <h5>電路開發設計：</h5>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>電路開發使用AutodeskEAGLE軟體，將本次PCB電路開發的流程分為三大階段，分別為電路圖繪製、電路佈局、電路板加工。因應本次開發門鎖的需求先將所有電路元件列表，接著再從網路上尋找相關的零件特性資料文件。</p>
+          </div>
+        </div>
+
+        <div class="row mb-5 d-flex justify-content-center">
+          <div class="zoom col-12 col-md-8">
+              <div class="image_5 crd-h row rounded bg-light text-white animate__animated animate__fadeInUp animate__slow" style="margin: 1px;"></div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <h5>電路圖繪製：</h5>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>為加速設計流程，電路繪製全程採用電腦軟體。移往都使用Altium Designer來做電路設計，這次花了約三天的時間學習Autodesk EAGLE，Autodesk EAGLE比起Altium Designer較為便宜，在學習資源及入門門檻也都較低。第一階段電路繪製必須要尋找所有BOM表中元件符號（Symbols)及腳位模板（Footprint），在軟體中必須先繪製出電路原理圖才能佈線、生產。</p>
+          </div>
+        </div>
+
+        <div class="row mb-5 d-flex justify-content-center">
+          <div class="zoom col-12 col-md-8">
+              <div class="image_6 crd-h row rounded bg-light text-white animate__animated animate__fadeInUp animate__slow" style="margin: 1px;"></div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <h5>電路佈局：</h5>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>備齊BOM表中元件資料庫並完成電路圖後即可開始擺設元件方向、位置。在此我們需要設定電路板尺寸、擺放元件位置，因門鎖體積需求，在電路擺佈上大約測試了五個版本，不同的元件位置會影響到佈線時的跳線數量。</p>
+          </div>
+        </div>
+
+        <div class="row mb-5 d-flex justify-content-center">
+          <div class="zoom col-12 col-md-8">
+              <div class="image_7 crd-h row rounded bg-light text-white animate__animated animate__fadeInUp animate__slow" style="margin: 1px;"></div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <h5>電路板加工：</h5>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>電路板加工目前大約有兩種解決方案，傳統洗電路板或是交給工廠製作，在前期研究偏好使用傳統洗電路板的做法，需要調配化學藥劑，並且如同拍攝底片般於日光燈底下做曝光顯影，在顯影後用化學藥劑清洗腐蝕掉不必要的銅箔來產生電子線路。而工廠加工是經過傳統洗電路板的過程後經驗證確認電路工作正常後才會交由外面工廠訂製，通常交由工廠訂製電路板或需要有一定的數量，價格上也比傳統的傳統洗出來的電路板還高，因此會多次確認。</p>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>為了驗證電路的穩定性，決定先使用PCB感光板做第一片樣板，傳統手洗電路板的過程共有五步驟，曝光、顯影、蝕刻、清洗、鑽孔，洗一塊電路板大約耗時一個半小時左右，成功機率大約60%左右。</p>
+          </div>
+        </div>
+
+        <div class="row mb-5 d-flex justify-content-center">
+          <div class="zoom col-12 col-md-8">
+              <div class="image_8 crd-h row rounded bg-light text-white animate__animated animate__fadeInUp animate__slow" style="margin: 1px;"></div>
+          </div>
+        </div>
+
+        <div class="row mb-5 d-flex justify-content-center">
+          <div class="zoom col-12 col-md-8">
+              <div class="image_9 crd-h row rounded bg-light text-white animate__animated animate__fadeInUp animate__slow" style="margin: 1px;"></div>
+          </div>
+        </div>
+
+        <div class="row mb-5 d-flex justify-content-center">
+          <div class="zoom col-12 col-md-8">
+              <div class="image_10 crd-h row rounded bg-light text-white animate__animated animate__fadeInUp animate__slow" style="margin: 1px;"></div>
+          </div>
+        </div>
+
+        <div class="row mb-5 d-flex justify-content-center">
+          <div class="zoom col-12 col-md-8">
+              <div class="image_11 crd-h row rounded bg-light text-white animate__animated animate__fadeInUp animate__slow" style="margin: 1px;"></div>
+          </div>
+        </div>
+
+        <div class="row mb-5 d-flex justify-content-center">
+          <div class="zoom col-12 col-md-8">
+              <div class="image_12 crd-h row rounded bg-light text-white animate__animated animate__fadeInUp animate__slow" style="margin: 1px;"></div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>經化學藥劑侵蝕出來的電路板較為粗糙，孔洞也都是一個一個手鑽出來的，因此在精度、品質上會有一定的限制。經測試後一切功能正常運作，決定進入工廠小量生產階段，考量台灣與中國電路板製造廠的價格、品質、工作時間後交由中國電路板製造商生產。以下為最終電路板成品，價格、品質及生產效率都令人驚艷。</p>
+          </div>
+        </div>
+
+        <div class="row mb-5 d-flex justify-content-center">
+          <div class="zoom col-12 col-md-8">
+              <div class="image_13 crd-h row rounded bg-light text-white animate__animated animate__fadeInUp animate__slow" style="margin: 1px;"></div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <h3>RFID技術</h3>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <h5>簡介：</h5>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>無線射頻辨識(Radio Frequency Identification, RFID) 技術於二次大戰後慢慢開始普及於我們的生活之中，射頻識別技術可應用的領域十分廣泛，主要決定RFID技術是否會普及的因素是該項技術在相應領域中的經濟效益。不管是在物流、資料傳輸辨識、門禁管理、電子錢包、信用卡、防盜等等，在閱讀器和RFID標籤之間的訊號傳播方式也有幾種方式。以下將詳細介紹RFID卡片種類與其感應特性。</p>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <h5>RFID技術晶片種類：</h5>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>RFID標籤可以通過它們用於通信的射頻範圍（低，高或超高）以及標籤與讀取器進行通信的方式（有源或無源）進行分類，不同類型的RFID射頻頻段會關係到它們的功能和局限性，必需要從應用端的環境因素來選擇最適合的應用技術類型。目前市面上最普及的標準的RFID感應標籤大約分成三種頻段，低頻（LF）、高頻（HF）、超高頻（UHF），而理論上RFID的射頻會對應到它的傳輸距離及數據讀取的速率。</p>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <h3>結論</h3>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>這次的研究報告我經歷了許多的坡折，深深感受到自己能力的不足及對於知識的渴望。也許這一學分的遊戲規則在我心中設下了限制，我拿出了一學分的報告但實際背後我所學習到的內容相信遠超過這一學分的制度。</p>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>電子門鎖的市場經過分析、開發等等過程，這些過程對我來說就只是個產品製作流程的學習，但如果整個流程由一個人非團體的型態來完成這內容量十分龐大。我期望在未來能集結更多專業人才一同加入設計開發的流程，對於一個期望變成領導人的人比起其中專業的知識，更加重要的事該學會如何結合對的資源，如人際交流、時間規劃、資金分配的等等，這些才是真正要體會學習的。</p>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <p>這個門鎖是否會繼續進行還需要一些時間做深入的分析，感謝指導教授的專業帶領與指教。</p>
+          </div>
+        </div>
+
+
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+           <a href="/project/自動鎖I/main.html" class="text-center text-decoration-none"><h3>[點我前往自動鎖I]</h3></a>  
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 mb-4 animate__animated animate__fadeInUp animate__delay-1s animate__slow style="margin: 1px;"">
+              <h3 class=" text-center">60 TWD Buy Me a Coffee!</h3>
+          </div>
+      </div>
+
+      
+
+    </div>
+
+    <div class=" animate__animated animate__fadeInUp animate__slow" id="smart-button-container">
+        <div style="text-align: center;">
+          <div id="paypal-button-container"></div>
+        </div>
+      </div>
+    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=TWD" data-sdk-integration-source="button-factory"></script>
+    <script>
+      function initPayPalButton() {
+        paypal.Buttons({
+          style: {
+            shape: 'rect',
+            color: 'gold',
+            layout: 'vertical',
+            label: 'pay',
+            
+          },
+  
+          createOrder: function(data, actions) {
+            return actions.order.create({
+              purchase_units: [{"description":"Buy Me a Coffee!","amount":{"currency_code":"TWD","value":60}}]
+            });
+          },
+  
+          onApprove: function(data, actions) {
+            return actions.order.capture().then(function(details) {
+              alert('Transaction completed by ' + details.payer.name.given_name + '!');
+            });
+          },
+  
+          onError: function(err) {
+            console.log(err);
+          }
+        }).render('#paypal-button-container');
+      }
+      initPayPalButton();
+    </script>
+
+    <!-- foot -->
+
+    <div class="container">
+        <div class="row">
+            <div class="foot col-12 d-flex justify-content-center align-items-center text-body">
+                <h6> This website designed by RENZE.</h5>
+        </div>
+    </div>
+
+        
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
