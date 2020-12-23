@@ -6,7 +6,7 @@
     height: 600px;
 }
 
-.big{
+.hide{
     display: none;
 }
 
@@ -33,17 +33,11 @@
 
 .image_3{
     width: 100%;
-    background-image: url(/);
+    background-image: url(/project/img/4.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.image_4{
-    width: 100%;
-    background-image: url(/);
-    background-size: cover;
-    background-position: center;
-}
 
 .zoom{
     transition: all 1s;
