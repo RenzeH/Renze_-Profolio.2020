@@ -34,7 +34,15 @@
     width: 100%;
     background-image: url(/blog/chrome/renze.jpg);
     background-size: cover;
-    background-position: center left;
+    background-position: center center;
+}
+
+.image_5{
+    width: 100%;
+    background-image: url(https://images.prismic.io/teenageengineering/db9790c6-9a8a-4163-9584-8bcb3b993e69_1x1-PO33-KO-side.png?auto=compress,format&w=2048&h=1);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .zoom{
