@@ -30,6 +30,13 @@
     background-position: center left;
 }
 
+.image_4{
+    width: 100%;
+    background-image: url(/blog/chrome/renze.jpg);
+    background-size: cover;
+    background-position: center left;
+}
+
 .zoom{
     transition: all 1s;
 }

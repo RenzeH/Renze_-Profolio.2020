@@ -1,0 +1,32 @@
+.crd-h{
+    height: 40vh;
+}
+
+.image_xl{
+    width: 100%;
+    background-color:#FFD542;
+    background-image: url(https://teenage.engineering/_img/5a68a6da20dac20004487062_2048.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image_1{
+    width: 100%;
+    background-image: url(https://images.prismic.io/teenageengineering%2F0e000107-4dce-4f5c-8fd6-baff6830be88_po-33.png?auto=compress,format&w=2048&h=1);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.zoom{
+    transition: all 1s;
+}
+
+.zoom:hover {
+    transform: scale(1.01);
+}
+
+@media screen and (max-width: 500px){
+
+}
