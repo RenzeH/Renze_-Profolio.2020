@@ -33,4 +33,13 @@
         height: 150px;
     }
 
+    .image_xl{
+        width: 100%;
+        background-color:#FFD542;
+        background-image: url(https://teenage.engineering/_img/5a68a6da20dac20004487062_2048.png);
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
 }
