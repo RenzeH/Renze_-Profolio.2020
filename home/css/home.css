@@ -4,7 +4,7 @@
 
 .image_l{
     width: 100%;
-    background-image: url(/home/img/blog.jpg);
+    background-image: url(../home/img/blog.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center ;
@@ -12,14 +12,14 @@
 
 .image_r{
     width: 100%;
-    background-image: url(/home/img/ph.png);
+    background-image: url(../home/img/ph.png);
     background-size: cover;
     background-position: center left;
 }
 
 .image_xl{
     width: 100%;
-    background-image: url(/home/img/proj.jpg);
+    background-image: url(../home/img/proj.jpg);
     background-size: cover;
     background-position: 50% 70% ;
 }
