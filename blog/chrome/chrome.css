@@ -4,28 +4,28 @@
 
 .image_xl{
     width: 100%;
-    background-image: url(/blog/chrome/renze.jpg);
+    background-image: url(./chrome/renze.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .image_1{
     width: 100%;
-    background-image: url(/blog/chrome/dock.png);
+    background-image: url(./chrome/dock.png);
     background-size: cover;
     background-position: center;
 }
 
 .image_2{
     width: 100%;
-    background-image: url(/blog/chrome/2.png);
+    background-image: url(./chrome/2.png);
     background-size: cover;
     background-position: center;
 }
 
 .image_3{
     width: 100%;
-    background-image: url(/blog/chrome/3.png);
+    background-image: url(./chrome/3.png);
     background-size: cover;
     background-position: center;
 }

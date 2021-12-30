@@ -12,28 +12,28 @@
 
 .image_xl{
     width: 100%;
-    background-image: url(/project/img/3.jpg);
+    background-image: url(../img/3.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .image_1{
     width: 100%;
-    background-image: url(/project/img/2-2.jpg);
+    background-image: url(../img/2-2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .image_2{
     width: 100%;
-    background-image: url(/project/img/renze.jpg);
+    background-image: url(../img/renze.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .image_3{
     width: 100%;
-    background-image: url(/project/img/4.jpg);
+    background-image: url(../img/4.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -63,7 +63,7 @@
 
     .image_xl{
         width: 100%;
-        background-image: url(/project/img/2-3.jpg);
+        background-image: url(../img/2-3.jpg);
         background-size: cover;
         background-position: center;
     }

@@ -4,35 +4,35 @@
 
 .image_xl{
     width: 100%;
-    background-image: url(/blog/chrome/renze.jpg);
+    background-image: url(../chrome/renze.jpg);
     background-size: cover;
     background-position: center ;
 }
 
 .image_1{
     width: 100%;
-    background-image: url(/blog/城市意象/main.jpeg);
+    background-image: url(../城市意象/main.jpeg);
     background-size: cover;
     background-position: center ;
 }
 
 .image_2{
     width: 100%;
-    background-image: url(/blog/微小電子/micro_e.jpeg);
+    background-image: url(../微小電子/micro_e.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .image_3{
     width: 100%;
-    background-image: url(/blog/停損點/main.jpeg);
+    background-image: url(../停損點/main.jpeg);
     background-size: cover;
     background-position: center left;
 }
 
 .image_4{
     width: 100%;
-    background-image: url(/blog/chrome/renze.jpg);
+    background-image: url(../chrome/renze.jpg);
     background-size: cover;
     background-position: center center;
 }

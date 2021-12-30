@@ -4,28 +4,28 @@
 
 .image_xl{
     width: 100%;
-    background-image: url(/blog/微小電子/micro_e.jpeg);
+    background-image: url(./micro_e.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .image_1{
     width: 100%;
-    background-image: url(/blog/微小電子/1.png);
+    background-image: url(./1.png);
     background-size: cover;
     background-position: center;
 }
 
 .image_2{
     width: 100%;
-    background-image: url(/blog/微小電子/2.png);
+    background-image: url(./2.png);
     background-size: cover;
     background-position: center;
 }
 
 .image_3{
     width: 100%;
-    background-image: url(/blog/微小電子/3.png);
+    background-image: url(./3.png);
     background-size: cover;
     background-position: center;
 }

@@ -4,16 +4,17 @@
 
 .image_xl{
     width: 100%;
-    background-image: url(/blog/停損點/main.jpeg);
+    background-image: url(./main.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .image_1{
     width: 100%;
-    background-image: url(/blog/停損點/1.png);
+    background-image: url(./1.png);
     background-size: cover;
     background-position: center;
+    }
 
 .zoom{
     transition: all 1s;
