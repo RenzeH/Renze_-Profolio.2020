@@ -11,21 +11,21 @@
 
 .image_1{
     width: 100%;
-    background-image: url(../城市意象/main.jpeg);
+    background-image: url(../city_img/main.jpeg);
     background-size: cover;
     background-position: center ;
 }
 
 .image_2{
     width: 100%;
-    background-image: url(../微小電子/micro_e.jpeg);
+    background-image: url(../micre_e/micro_e.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .image_3{
     width: 100%;
-    background-image: url(../停損點/main.jpeg);
+    background-image: url(../stop_lose/main.jpeg);
     background-size: cover;
     background-position: center left;
 }
